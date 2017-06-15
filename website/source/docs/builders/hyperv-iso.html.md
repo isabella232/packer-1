@@ -121,7 +121,7 @@ can be configured for this builder.
     The maximum summary size of all files in the listed directories are the
     same as in `floppy_files`.
 
--   `generation` (integer) - The Hyper-V generation for the virtual machine. By
+- `generation` (integer) - The Hyper-V generation for the virtual machine. By
     default, this is 1. Generation 2 Hyper-V virtual machines do not support
     floppy drives. In this scenario use `secondary_iso_images` instead. Hard
     drives and dvd drives will also be scsi and not ide.
